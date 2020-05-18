@@ -27,6 +27,10 @@ class EmployeesController extends Controller {
 	public function index(){
         return view('layout.index');
     }
+
+    public function index2(){
+        return view('layout.index2');
+    }
     
     public function show(Request $request){
         $data = array(
